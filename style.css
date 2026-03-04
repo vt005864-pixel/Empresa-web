@@ -1,0 +1,81 @@
+body {
+margin:0;
+font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+background:#f5f5f7;
+color:#111;
+}
+
+.app {
+max-width:700px;
+margin:auto;
+padding:20px;
+}
+
+header {
+margin-bottom:20px;
+}
+
+header h1 {
+margin:0;
+}
+
+header p {
+margin:0;
+color:#666;
+}
+
+#chat {
+height:400px;
+overflow-y:auto;
+background:#ffffff;
+padding:20px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+margin-bottom:15px;
+}
+
+.message {
+margin-bottom:10px;
+padding:12px;
+border-radius:14px;
+max-width:80%;
+}
+
+.user {
+background:#007aff;
+color:white;
+margin-left:auto;
+}
+
+.bot {
+background:#e9e9eb;
+}
+
+.input-area {
+display:flex;
+gap:10px;
+}
+
+input {
+flex:1;
+padding:15px;
+border-radius:14px;
+border:1px solid #ddd;
+font-size:16px;
+}
+
+button {
+background:#007aff;
+color:white;
+border:none;
+padding:12px 18px;
+border-radius:14px;
+font-weight:600;
+cursor:pointer;
+}
+
+.actions {
+margin-top:15px;
+display:flex;
+gap:10px;
+}
